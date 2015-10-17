@@ -3,9 +3,10 @@
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
   <h1>Pick a Category</h1>
-  <a href="/categories/places">Places</a></br>
-  <a href="/categories/food">Food</a></br>
-  <a href="/categories/culture">Culture</a></br>
+  
+  {%for category in cats%}
+    <a href="/categories/{{category}}">{{category}}</a></br>
+  {%endfor%}
   <!-- <form>
     <input type="file" accept="image/*;capture=camera">
   </form>-->
