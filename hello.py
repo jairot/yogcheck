@@ -11,6 +11,10 @@ def hello():
 def categories():
     return render_template('categories.html')
 
+@app.route("/profile")
+def profile():
+    return render_template('profile.html')
+
 @app.route('/categories/<category>')
 def challenges(category=None):
     return render_template("category.html", category=category)
