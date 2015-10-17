@@ -1,0 +1,34 @@
+
+a {
+    color: #FFFFFF;
+}
+
+
+.place {
+	/*background-image: url(pic_1.jpg);*/
+	background-color: #4381be;
+	padding: 15px;
+	margin: 5px;
+	width: 100%;
+	display: block;
+}
+
+.food {
+	/*background-image: url(pic_1.jpg);*/
+	background-color: #ffb032;
+	padding: 15px;
+	margin: 5px;
+	width: 100%;
+	display: block;
+}
+
+.culture {
+	/*background-image: url(pic_1.jpg);*/
+	background-color: #ea4764;
+	padding: 15px;
+	margin: 5px;
+	width: 100%;
+	display: block;
+}
+
+

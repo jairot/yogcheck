@@ -30,4 +30,8 @@ header {
   /*padding: 20px 15px 15px 15px;
   position: relative;*/
 }
+.panel{
+    width: 100%;
+    max-width: 100%;
+}
 

@@ -33,8 +33,9 @@
                   <div class="col-md-6">
                   {{activity.text}}
                   <br>
-                  <a class="btn btn-info" href="{{activity.location}}" target="_blank">Map</a>
-                  
+                  {%if activity.location%}
+                    <a class="btn btn-info" href="{{activity.location}}" target="_blank">Map</a>
+                  {%endif%}
                   <button class="btn btn-danger" class="check-act" {%if activity.done%}disabled{%endif%} target="_blank">Check</button>
                   </div>
                   <div class="col-md-6">
