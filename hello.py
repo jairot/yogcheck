@@ -38,9 +38,9 @@ def categories():
         cats.append(categories.category)
     return render_template('categories.html', cats=cats)
 
-@app.route("/profile")
+@app.route("/progress")
 def profile():
-    return render_template('profile.html')
+    return render_template('progress.html')
 
 @app.route('/categories/<category>')
 def challenges(category=None):
